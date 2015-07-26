@@ -83,15 +83,16 @@ float:left;
 	font-size:12px;
 	margin:5px;
 }
-input{
- margin-bottom: 15px;
-}
+
 input[type=submit] {
  width: 175px; 
  cursor: pointer;
 }
 input[type=checkbox], label[for=remember] {
  display:inline; 
+    float: right;
+    padding: 5px;
+    position: relative;
 }
 label{
 display:block;

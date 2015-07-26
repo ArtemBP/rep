@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+body, header, content, footer, h1, h2, h3, ul, li, a, p, form {
+	text-decoration: none;
+	margin: 0;
+	padding: 0; 
+}
+body {
+	background: #e5e5e5;
+}
+input[type=submit]{
+	float:right;
+	background-color: #909090;
+	margin: 5px;
+	border-radius: 5px;
+}
+ul.menu{
+	text-align:center;
+	padding: 3px;
+	background-color: #444;
+	height:30px;
+}
+ul.menu li {
+	display: inline;
+	margin-right: 5px;
+	padding: 3px;
+}
+ul.menu li a{
+	font-size: 24px;
+	color: white;
+	padding: 7px;
+}
+ul.menu li a:hover{
+	background-color: #909090;
+}
+#divUser h1 {
+	text-align: center;
+	font-size: 52px;
+}
+#news {
+	background: white;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.headernews{
+	margin-top: 15px;
+	font-size: 32px;
+	text-align: center;
+}
+.newstitle {
+	font-size: 24px;
+	padding: 5px;
+	border-bottom: 1px solid black;
+}
+.newsbody {
+	font-size: 18px;
+	padding: 5px;
+	overflow: hidden;
+}
+#news input[type=checkbox] {
+	float: right;
+	margin: 10px;
+
+}
+#news label[for=checkbox] {
+	float: right;
+	font-size: 18px;
+
+}
+input[type=submit] {
+	width: 100px;
+	
+}

@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+body{
+	background: #eee;
+}
+.form{
+	width: 175px;
+	margin: 200px auto;
+	padding: 10px;
+	border: 3px solid #000;
+	border-radius: 10px;
+	background: #bbb;
+}
+input[type=text]{
+	margin-bottom: 15px;
+}
+input[type=password] {
+	margin-bottom: 15px;
+}
+input[type=submit] {
+	cursor: pointer;
+	margin-left: 15px;
+}
+p{
+	text-color: #red;
+}
